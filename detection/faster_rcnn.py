@@ -604,9 +604,6 @@ def fasterrcnn_resnet50_fpn(
     norm_layer = misc_nn_ops.FrozenBatchNorm2d if is_trained else nn.BatchNorm2d
 
     backbone = resnet50(weights=weights_backbone, progress=progress, norm_layer=norm_layer)
-    model_path = "/Work30/kitagawatomoki/part_time_job/healthcare/byol-pytorch2/result_set2_random_CLAHE/model/best_improved-net.pt"
-    backbone.load_state_dict(torch.load(model_path, map_location="cpu"))
-
 
     # backbone = _resnet_fpn_extractor(backbone, trainable_backbone_layers)
     backbone = _resnet_fpn_extractor(backbone, trainable_backbone_layers, num_classes=num_classes)
