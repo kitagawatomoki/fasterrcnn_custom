@@ -1,0 +1,8 @@
+Atelectasis
+Cardiomegaly
+Effusion
+Infiltrate
+Mass
+Nodule
+Pneumonia
+Pneumothorax
