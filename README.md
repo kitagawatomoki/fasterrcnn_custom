@@ -1,5 +1,7 @@
 # fasterrcnn_custom
 
+![test_detect_jsrt](https://user-images.githubusercontent.com/76994536/228898799-5944c1b1-6883-4114-9085-dbf387ad806a.png)
+
 ## 胸部X線画像から結節を検出するモデル
 pytorchのtorchvisionにある[FasterRCNN](https://pytorch.org/vision/main/models/faster_rcnn.html)
 
